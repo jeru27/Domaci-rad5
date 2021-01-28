@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
+
+
+body {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.navbar{
+    margin-bottom: 20px;
+}
+
+.navbar-brand{
+    margin-right: 400px;
+
+}
+
+.carousel-item {
+    height: 800px;
+    width: 100%;
+
+}
+
+.collapse .navbar-brand {
+
+    color: gray;
+
+}
+
+.row {
+
+    margin-top: 20px;
+    margin bottom: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 150%;
+
+}
+
+
+#hs {
+    font-weight: 600;
+    font-size: 200%;
+
+}
+
+li {
+    display: block;
+    }
+
+.list-group-item.flex-fill {
+    width: 10px;
+    margin-top: 20px;
+
+}
+
+.form-control {
+    margin-left: 50%
+    margin-right: 50%;
+
+    }
+
+#faq .list-group-item {
+    margin-top: 20px;
+    border-top-width: 1px;
+
+}
+
+

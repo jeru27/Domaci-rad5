@@ -1,0 +1,296 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style1.css">
+
+    <title>Hair Studio</title>
+  </head>
+  <body>
+
+  <!-- Navbar -->
+
+<div class="p-3 mb-2 bg-light text-dark">
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#" id="hs">Hair Studio</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Make an appointment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+      <!-- Carousel -->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/cesar-saravia-uM6IhU0UZg0-unsplash.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/greg-trowman-jsuWg7IXx1k-unsplash.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/adam-winger-WXmHwPcFamo-unsplash.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+      <!-- Our services -->
+
+<h2>Our Services</h2>
+
+    <div class="row">
+  <div class="col-sm-4">
+    <div class="card text-white bg-dark mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Styling</h5>
+        <p class="card-text">Angled Pixie, Face framing layers, Lob with soft curl, Long interior layers, Soft waves, Short layers</p>
+        <a href="#" class="btn btn-outline-info">Check it out!</a>
+      </div>
+    </div>
+  </div>
+        <div class="col-sm-4">
+    <div class="card text-white bg-dark mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Colouring</h5>
+        <p class="card-text">Ombré, Ombré highlights, Balayage, Reverse Balayage, Sombré, Dipped died hair, Low lights</p>
+        <a href="#" class="btn btn-outline-info">Check it out!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card text-white bg-dark mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Hair cuts</h5>
+        <p class="card-text">Short, Medium, Long, Bob, Pixie, Shag Haircuts, Curly hair cuts, Mohawk, Haircuts for natural hair</p>
+        <a href="#" class="btn btn-outline-info">Check it out!</a>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <!-- Appointment -->
+
+<h2>Make an appointment</h2>
+
+<div class="container">
+ <div class="row">
+    <div class="col-sm-6">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputText1"></label>
+            <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp" placeholder="First and last name">
+        </div>
+
+   <div class="form-group">
+   <label for="exampleInputText2"></label>
+    <input type="text" class="form-control" id="exampleInputText2" aria-describedby="textHelp" placeholder="Phone number">
+  </div>
+
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">I agree that Hair Studio is the best!</label>
+  </div>
+  <button type="submit" class="btn btn-outline-info">Send</button>
+</form>
+    </div>
+
+    <div class="col-sm-6">
+   <ul class="list-group list-group-horizontal">
+     <li class="list-group-item flex-fill"><i>Day</i></li>
+     <li class="list-group-item flex-fill"><i>Working Hours</i></li>
+
+</ul>
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill"><b>Monday</b></li>
+  <li class="list-group-item flex-fill">8am-4pm</li>
+
+</ul>
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill"><b>Tuesday</b></li>
+  <li class="list-group-item flex-fill">10am-6pm</li>
+
+</ul>
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill"><b>Wednesday</b></li>
+  <li class="list-group-item flex-fill">8am-4pm</li>
+
+</ul>
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill"><b>Thursday</b></li>
+  <li class="list-group-item flex-fill">8am-4pm</li>
+
+</ul>
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill"><b>Friday</b></li>
+  <li class="list-group-item flex-fill">12pm-8pm</li>
+
+</ul>
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill"><b>Saturday</b></li>
+  <li class="list-group-item flex-fill">8am-4pm</li>
+
+</ul>
+        <ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill"><b>Sunday/holidays</b></li>
+  <li class="list-group-item flex-fill">Closed</li>
+
+</ul>
+        </div>
+    </div>
+
+    <!-- FAQ-->
+
+     <div class="row justify-content-center">
+     <h2>FAQ (Frequently asked questions)</h2>
+<ul id="faq" class="list-group">
+  <li class="list-group-item text-white bg-dark mb-3">Do you have a gift certificate? <br><i>Gift certificates are available for purchase over the phone or in the salon. If you purchase a gift
+  certificate over the phone, we can either mail it to your lucky recipient or simply keep it in our files. Hair Studio gift certificates are not redeemable for cash or refundable.</i></li>
+  <li class="list-group-item text-white bg-dark mb-3">Can I bring my pet along? <br><i>Yes, please do, we are a pet friendly studio.</i></li>
+  <li class="list-group-item text-white bg-dark mb-3">What awards did you receive so far? <br><i>NAHA 2019</i></li>
+
+</ul>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+         <div class="card border-0 bg-light">
+            <div class="card-body">
+             <h5 class="card-title">Contact</h5>
+                <p class="card-text">Hair Studio <br>License number: 54T217 <br>2175 S Merlose D <br>Los Angeles, CA 90037
+                    <br>Phone: (310) 283-7120 <br> Email: hs@gmail.com</p>
+
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-3">
+
+    </div>
+     <div class="col-sm-3">
+
+    </div>
+  <div class="col-sm-3">
+    <div id="nav" class="card border-0 bg-light">
+      <div class="card-body">
+        <h5 class="card-title">Navigation</h5>
+          <a href="#" class="card-text">Our Services <br>Make an appointment <br>FAQ <br>About us <br></a>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ </div>
+
+
+  <!--Modal -->
+
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">About us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>At Hair Studio we are passionate about meeting the unique needs of our clients and
+        creating a style that highlights their natural beauty. We create a perfect style by listening
+            to our clients' desires, whether they are a business professional or someone who wants to
+        sport the trendiest styles.</p>
+
+                    <p>We pride ourselves in keeping up with our education and therefore, we always bring a fresh
+        perspective to our work. Our atmosphere is comfortable and professional.. a taste of LA scene.</p>
+
+                    <img width= class="img-fluid" src="images/hair scissors.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Option 2: Bootstrap Bundle with Popper -->
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
